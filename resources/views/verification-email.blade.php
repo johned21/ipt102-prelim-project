@@ -17,7 +17,7 @@
 <hr>
                 <div class="card-footer">
                     <p>
-                        <a href="{{url('/verification/' . $user->id . '/' . $user->remember_token)}}" class="btn btn-primary font-control">
+                        <a href="{{url('/verification/' . $user->id . '/' . $user->remember_token)}}" class="btn btn-primary form-control">
                             Verify Account
                         </a>
                     </p>  
